@@ -1,0 +1,43 @@
+{
+    "bg": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca530ccc-fd0f-4f26-bbc7-9af8e8225eea/dd5qnyp-781f6297-22b0-46d8-b100-a34b741a1160.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2E1MzBjY2MtZmQwZi00ZjI2LWJiYzctOWFmOGU4MjI1ZWVhXC9kZDVxbnlwLTc4MWY2Mjk3LTIyYjAtNDZkOC1iMTAwLWEzNGI3NDFhMTE2MC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.YfAduIMP-mhVO_bxUBm3nqZZ0CLC_AAdCT1NuKzTcYg",
+    "title": "Título do Quiz",
+    "description": "Descrição do seu quiz aqui",
+    "questions": [
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "Como fazer um seletor por id via CSS?",
+            "description": "Essa é pra aquecer",
+            "answer": 2,
+            "alternatives": [
+                ".elemento",
+                "*elemento",
+                "#elemento",
+                "%elemento"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+            "title": "Como fazer um background gradiente com css?",
+            "description": "Faz tempo em haha",
+            "answer": 0,
+            "alternatives": [
+                "background: linear-gradient(#e66465, #9198e5);",
+                "background: gradient(#e66465, #9198e5);"
+            ]
+        }
+    ],
+    "external": [
+        ""
+    ],
+    "theme": {
+        "colors": {
+            "primary": "#ffeb3b",
+            "secondary": "#000",
+            "mainBg": "#1c1814",
+            "contrastText": "#fff",
+            "wrong": "#ff5722",
+            "success": "#4caf50"
+        },
+        "borderRadius": "4px"
+    }
+}
