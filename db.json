@@ -1,30 +1,141 @@
 {
     "bg": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca530ccc-fd0f-4f26-bbc7-9af8e8225eea/dd5qnyp-781f6297-22b0-46d8-b100-a34b741a1160.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2E1MzBjY2MtZmQwZi00ZjI2LWJiYzctOWFmOGU4MjI1ZWVhXC9kZDVxbnlwLTc4MWY2Mjk3LTIyYjAtNDZkOC1iMTAwLWEzNGI3NDFhMTE2MC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.YfAduIMP-mhVO_bxUBm3nqZZ0CLC_AAdCT1NuKzTcYg",
-    "title": "Título do Quiz",
-    "description": "Descrição do seu quiz aqui",
+    "title": "MortalQuiz",
+    "description": "TEST YOUR MIND!",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
-            "description": "Essa é pra aquecer",
-            "answer": 2,
+            "image": "https://media.giphy.com/media/5n3ZO8jVcAQow/giphy.gif",
+            "title": "Qual o verdadeiro nome do Scorpion?",
+            "description": "GET OVER HERE!",
+            "answer": 0,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "Hanzo Hasashi",
+                "Bi-Han",
+                "Satoshi Hasashi",
+                "Kuai Liang"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-            "title": "Como fazer um background gradiente com css?",
-            "description": "Faz tempo em haha",
+            "image": "https://media.giphy.com/media/gHQfao7b5xmmI3Tm7V/giphy.gif",
+            "title": "Quem foi o primeiro Sub-Zero?",
+            "description": "Fica frio, você vai acertar!",
+            "answer": 3,
+            "alternatives": [
+                "Liu Kang",
+                "Quan-Chi",
+                "Takeda Takahashi",
+                "Bi-Han"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/7d7lKk2nH5RJu/giphy.gif",
+            "title": "Quem é o protagonista de Mortal Kombat?",
+            "description": "Essa você faz de bicicleta!",
+            "answer": 2,
+            "alternatives": [
+                "Scorpion",
+                "Sub-Zero",
+                "Liu Kang",
+                "Johnny Cage"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/1zkIf7ikMMhwPk8gSP/giphy.gif",
+            "title": "Qual a origem do nome Noob Saibot?",
+            "description": "Não seja noob!",
+            "answer": 1,
+            "alternatives": [
+                "Um robô muito fácil de ser derrotado",
+                "Junção dos sobrenomes Ed Boon e John Tobias",
+                "Fusão do robô Saibot com o ninja inexperiente Noob",
+                "Foi uma palavra que Raiden inventou para descrever a escuridão"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/13XjnBISISeT0Q/giphy.gif",
+            "title": "Apesar de ninjas, qual é considerado um semideus?",
+            "description": "Eita, Mortal Kombat tem semideus?",
+            "answer": 1,
+            "alternatives": [
+                "Ermac",
+                "Rain",
+                "Scorpion",
+                "Smoke"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/hqyghxPJECiDt3VITP/giphy.gif",
+            "title": "Quem desses personagens possuem + de 4 braços?",
+            "description": "Pensa num abraço",
+            "answer": 3,
+            "alternatives": [
+                "Goro",
+                "Sheeva",
+                "Kintaro",
+                "Kollector"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/SU8RwVK7NkviVpqQJd/giphy.gif",
+            "title": "Em quem Johnny cage foi inspirado?",
+            "description": "Johnny quem???",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "Jean Claude Van Damme",
+                "Bruce Lee",
+                "Arnold Schwarzenegger",
+                "Chuck Norris"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/pDsFRYkRC331e/giphy.gif",
+            "title": "Qual o maior vilão do universo de Mortal Kombat?",
+            "description": "Vish, tem tantos...",
+            "answer": 1,
+            "alternatives": [
+                "Kotal Kahn",
+                "Shao Kahn",
+                "Shinnok",
+                "Shang Tsung"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/E0CYEUH5BOoFMX62RK/giphy.gif",
+            "title": "Qual das alternativas abaixo não pertence ao Mortal Kombat?",
+            "description": "Não tome um flawless aqui",
+            "answer": 2,
+            "alternatives": [
+                "Fatality",
+                "Toasty",
+                "Rekonqueror",
+                "Finish Him"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/CatCCFZa6U8nK/giphy.gif",
+            "title": "Qual desses personagens não foi convidado nos jogos de Mortal Kombat?",
+            "description": "Finish Him!",
+            "answer": 3,
+            "alternatives": [
+                "Alien",
+                "Rambo",
+                "Kratos",
+                "Grinch"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/otbWvETTuSu64/giphy.gif",
+            "title": "Em quanto tempo o primeiro jogo de Mortal Kombat foi desenvolvido?",
+            "description": "Mercy!",
+            "answer": 0,
+            "alternatives": [
+                "10 meses",
+                "12 meses",
+                "12 finais de semana",
+                "10 semanas"
             ]
         }
+        
     ],
     "external": [
         ""

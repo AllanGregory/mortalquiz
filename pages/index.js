@@ -9,6 +9,8 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -35,13 +37,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>MortalQuiz - Modelo Base</title>
+        <title>{db.title}</title>
       </Head>
       <QuizContainer>
         <Widget>
           <Widget.Content>
             <Widget.Header>
-              <h1>Mortal Kombat</h1>
+              <h1>{db.description}</h1>
             </Widget.Header>
             <form onSubmit={function (infoEvento) {
               infoEvento.preventDefault();
@@ -52,9 +54,9 @@ export default function Home() {
               //router manda para outra página
             }}
             >
-              <input
-                onChange={function (infoEvento) {
-                  console.log(infoEvento.target.value);
+              <Input
+                name="nomeUsuario"
+                onChange={(infoEvento) => {
                   //State = propriedade do componente que quando modifica o componente
                   //e que faz com que o componente tenha ou não ser renderizado novamente
 
@@ -64,11 +66,11 @@ export default function Home() {
                   setName(infoEvento.target.value);
                 }}
                 placeholder="Qual seu nome kombatente?"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
